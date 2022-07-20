@@ -4,7 +4,7 @@ import com.payment.systems.PaymentService;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ProviderTwoPaymentServiceImpl implements PaymentService<PayUPaymentRequest, PayUPaymentResponse> {
+public class PayUPaymentServiceImpl implements PaymentService<PayUPaymentRequest, PayUPaymentResponse> {
 
     @Override
     public PayUPaymentResponse pay(PayUPaymentRequest request) {
